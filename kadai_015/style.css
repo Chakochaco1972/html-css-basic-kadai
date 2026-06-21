@@ -1,0 +1,44 @@
+/* style.cssに記述 */
+
+html {
+  font-size: 20px;
+}
+
+body {
+   font-family:"Arial", "Meiryo", sans-serif;
+}
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem; /* ルート要素の2倍（40px） */
+  letter-spacing:1.2em;
+  text-shadow: 2px 2px 2px gray;
+  border-bottom:solid 3px rgb(115, 115, 114);
+  text-align:center;
+}
+/*
+.noto-sans-jp-<uniquifier> {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+h2,p {
+  text-align:center;
+}
+
+#basic p{
+  font-weight:bold;
+}
+.blue {
+  color:skyblue;
+}
+.pink {
+  color:rgb(255, 192, 203)
+}
